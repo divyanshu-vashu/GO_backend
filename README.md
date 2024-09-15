@@ -3,14 +3,14 @@
 
 ## Overview
 
-This project is a backend service built with Go, designed to handle file uploads, management, and metadata management. It provides APIs for uploading, retrieving, and sharing files, along with search and caching capabilities. The service is connected to a PostgreSQL database and can utilize S3 for file storage.
+This project is a backend service built with Go, designed to handle file uploads, management, and metadata management. It provides APIs for uploading, retrieving, and sharing files, along with search and caching capabilities. The service is connected to a PostgreSQL database and can utilize local for file storage.
 <img width="1280" alt="Screenshot 2024-09-15 at 11 12 47" src="https://github.com/user-attachments/assets/44e3e3ff-3a05-42c0-8c64-af668068353d">
 
 
 ## Features
 
 1. **File Upload & Management**
-   - **Task:** Allows users to upload files (e.g., documents, images) to S3 or local storage and manage file metadata.
+   - **Task:** Allows users to upload files (e.g., documents, images) to local or local storage and manage file metadata.
    - **Endpoints:**
      - `POST /upload`: Uploads files and saves metadata to PostgreSQL. Returns a public URL to access the file.
    - **Concurrency:** Uses goroutines to handle large uploads efficiently.
@@ -33,7 +33,7 @@ This project is a backend service built with Go, designed to handle file uploads
      - Ensure cache refreshes automatically after expiry (e.g., 5 minutes).
 
 5. **Database Interaction**
-   - **Task:** Manages file metadata, S3 locations, and user data in PostgreSQL.
+   - **Task:** Manages file metadata, local locations, and user data in PostgreSQL.
    - **Requirements:**
      - Create tables for users and files.
      - Ensure efficient queries for retrieving user-specific files.
@@ -78,7 +78,7 @@ The application requires certain environment variables to be set. Create a `.env
 
 ```env
 DATABASE_URL=postgres://user:password@localhost:5432/dbname
-S3_BUCKET_NAME=mybucket
+local_BUCKET_NAME=mybucket
 REDIS_URL=redis://localhost:6379
 # Add other environment variables as needed
 ```
