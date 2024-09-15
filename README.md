@@ -6,6 +6,12 @@
 This project is a backend service built with Go, designed to handle file uploads, management, and metadata management. It provides APIs for uploading, retrieving, and sharing files, along with search and caching capabilities. The service is connected to a PostgreSQL database and can utilize local for file storage.
 <img width="1280" alt="Screenshot 2024-09-15 at 11 12 47" src="https://github.com/user-attachments/assets/44e3e3ff-3a05-42c0-8c64-af668068353d">
 
+## Frontend
+
+
+The frontend for this project is built using React and is available at [Frontend Repository](https://github.com/divyanshu-vashu/go-frontend/). This frontend interacts with a backend implemented in Go. Make sure the backend is properly set up and running before starting the frontend application.
+
+
 
 ## Features
 
