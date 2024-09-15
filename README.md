@@ -45,7 +45,7 @@ This project is a backend service built with Go, designed to handle file uploads
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/divyanshu-vashu/go-backend.git
+   git clone https://github.com/divyanshu-vashu/21BRS1444_backend.git
    ```
 
 2. **Navigate to the Project Directory:**
