@@ -1,7 +1,7 @@
 package database
 
 import (
-	"go-backend/models"
+	"21BRS1444_backend/models"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

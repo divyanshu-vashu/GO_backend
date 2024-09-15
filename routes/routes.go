@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"go-backend/controllers"
+	"21BRS1444_backend/controllers"
 	
 	"github.com/gofiber/fiber/v2"
 )

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"go-backend/database"
-	"go-backend/routes"
+	"21BRS1444_backend/database"
+	"21BRS1444_backend/routes"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 )

@@ -12,10 +12,10 @@ RUN go mod download
 COPY . .
 
 # Build the Go app
-RUN go build -o go-backend-app
+RUN go build -o 21BRS1444_backend-app
 
 # Expose the port the app runs on (as defined in your Fiber app)
 EXPOSE 8000
 
 # Command to run the application
-CMD ["/app/go-backend-app"]
+CMD ["/app/21BRS1444_backend-app"]

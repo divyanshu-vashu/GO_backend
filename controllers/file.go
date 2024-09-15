@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"go-backend/database"
-	"go-backend/models"
+	"21BRS1444_backend/database"
+	"21BRS1444_backend/models"
 	"os"
 	"path/filepath"
 	"strconv"
@@ -12,7 +12,7 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gofiber/fiber/v2"
 	"fmt"
-	"go-backend/config"
+	"21BRS1444_backend/config"
 	
 )
 

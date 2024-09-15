@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"go-backend/database"
-	"go-backend/models"
+	"21BRS1444_backend/database"
+	"21BRS1444_backend/models"
 	"strconv"
 	"time"
 
