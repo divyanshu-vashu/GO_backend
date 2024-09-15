@@ -4,6 +4,8 @@
 ## Overview
 
 This project is a backend service built with Go, designed to handle file uploads, management, and metadata management. It provides APIs for uploading, retrieving, and sharing files, along with search and caching capabilities. The service is connected to a PostgreSQL database and can utilize S3 for file storage.
+<img width="1280" alt="Screenshot 2024-09-15 at 11 12 47" src="https://github.com/user-attachments/assets/44e3e3ff-3a05-42c0-8c64-af668068353d">
+
 
 ## Features
 
@@ -36,7 +38,8 @@ This project is a backend service built with Go, designed to handle file uploads
      - Create tables for users and files.
      - Ensure efficient queries for retrieving user-specific files.
      - Handle database transactions for critical operations (e.g., file upload).
-
+<img width="1280" alt="Screenshot 2024-09-15 at 11 13 03" src="https://github.com/user-attachments/assets/3e1552ef-46bc-4f47-b77c-810b1a693971">
+<img width="1280" alt="Screenshot 2024-09-15 at 11 12 40" src="https://github.com/user-attachments/assets/4d57359e-3da6-4ee4-ae2d-b799686f417b">
 ## Installation
 
 1. **Clone the Repository:**
