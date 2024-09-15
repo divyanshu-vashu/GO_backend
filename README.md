@@ -51,7 +51,7 @@ This project is a backend service built with Go, designed to handle file uploads
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd go-backend
+   cd 21BRS1444_backend
    ```
 
 3. **Install Dependencies:**
